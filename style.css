@@ -21,6 +21,13 @@ a{
   text-decoration: none;
 }
 
+strong{
+  background-color: #FFF;
+  text-align: center;
+  padding: 2% auto;
+  font-size: 26px;
+}
+
 /* class selectors */
 
 .navbar-brand{
