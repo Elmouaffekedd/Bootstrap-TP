@@ -1,0 +1,130 @@
+/* Tag selectors */
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+h5{
+  font-size: 1.7rem;
+}
+
+p{
+  font-size: 1.3rem;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+/* class selectors */
+
+.navbar-brand{
+  font-style: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.navbar{
+  background-color: #639CD9;
+  font-weight: 900;
+}
+
+.cardImage{
+  padding-top: 5%;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.card{
+  margin: 3%;
+}
+
+.contactediter{
+  margin: 5% 0;
+}
+
+.contacticons{
+  font-size: 1.5rem;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.curImage{
+  padding: 0 10% 10%;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.mapContainer{
+  padding: 0;
+}
+
+
+.fondateur{
+  padding: 5%;
+}
+
+.lesfondateurs{
+  width: 50%;
+  padding: 5% 0;
+}
+
+.contactediter{
+  border: 20px solid #FFF;
+  padding: 0;
+  margin: 0;
+}
+
+.contactList{
+  padding: 10%
+}
+/* id selectors */
+#cardSection{
+  background-color: #639CD9;
+  padding: 3% 10%;
+}
+
+#contact{
+  background-color: #fff;
+  padding: 3% 10%;
+}
+
+#fondateurs{
+  padding: 3% 10%;
+}
+
+#contact{
+  background-color: #639CD9;
+  padding: 3% 10%;
+}
+
+
+/* @ selectors */
+@media (max-width: 900px ) {
+  h1{
+    font-size: 18px;
+    text-shadow: 1px 1px 0 #FFF, 1px 0 1px #FFF, 0 0 1px #FFF;
+  }
+
+  p{
+    font-size: 12px;
+    text-shadow: 1px 1px 0 #FFF, 1px 0 1px #FFF, 0 0 1px #FFF;
+  }
+}
